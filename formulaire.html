@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>formulaire</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body style="background-color:#f5fffA">
+       
+        <form>
+        <div style="margin-left:50px ; margin-right:800px">
+        <strong style="font-family:magneto ;">Identité</strong><hr>
+        <div>
+            <u>civilité</u>
+                
+                <ul style="list-style-type: none;">
+                <li><input type="checkbox"><label for="civilité">mademoiselle</label></li>
+                <li><input type="checkbox"><label for="civilité">madame</label></li>
+                <li><input type="checkbox"><label for="civilité">monsieur</label></li>
+                </ul>
+            
+        </div>
+        <div>
+            <u>nom et prénom:</u><br><br> <input class="form-control" type="text" name="nom de famille" placeholder="nom de famille" style="width:200px"> <br><input type="text" class="form-control" placeholder="prénom" name="prénom" style="width:200px">
+        </div>
+        <div>
+            <u>sexe</u><br><br>
+            <input type="radio" name="sexe"><label for="sexe">homme</label><br>
+            <input type="radio" name="sexe"><label for="sexe">femme</label>
+        </div>
+        <div>
+            <u>annee de naissance</u>
+            <input type="date">
+        </div>
+        <div>
+            <u>nationalité</u><br><br>
+                <select style="background-color: rgb(143, 208, 155);border: black;">
+                    <option>BENINOISE</option>
+                    <option>FRANCAISE</option>
+                    <option>SENEGALAISE</option>
+                    <option>MALIENNE</option>
+                    <option>CONGOLAISE</option>
+                    <option>IVOIRIENNE</option>
+                    <option>ALLEMANDE</option>
+                    <option>ESPAGNOLE</option>
+                    <option>RUSSE</option>
+                    <option>ITALIENNE</option>
+                    <option>AMERICAINE</option>
+                </select>
+                
+        </div>
+        <div>
+            <u>statut</u>
+            <ul style="list-style-type:none">
+                <li><input type="checkbox"><label for="statut">étudiant</label></li>
+                <li><input type="checkbox"><label for="statut">Demandeur d'emploie</label></li>
+                <li><input type="checkbox"><label for="statut">Travailleur</label></li>
+                <li><input type="checkbox"><label for="statut">non défini</label></li>
+            </ul>
+        </div>
+        <div>
+            <strong style="font-family:magneto ;">Coordonnées</strong>
+        </div><hr>
+        <label for="adresse">Adresse mail:</label><input type="email" class="form-control"  style="width:200px"><br>
+        <label for="boite postale">Boite postale:</label><input type="text" class="form-control"  style="width:200px"><br>
+        <label for="mot de passe">mot de passe:</label><input type="password" class="form-control"  style="width:200px"><br>
+        <input type="submit" class="btn btn-success">
+        <input type="reset" class="btn btn-danger">
+        <input type="button" class="btn btn-warning" value="Quitter">
+        </div>
+        </form>
+    </body>
+</html>
